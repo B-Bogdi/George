@@ -1,0 +1,127 @@
+.footer a:last-child,
+.footer a:first-child > p {
+  font-size: 15px;
+  color: #5b5d6a;
+}
+.footer-shop-button::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 34px;
+  z-index: 10;
+  border-radius: 20px;
+  background-color: #133460a7;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+.footer-shop-button > p {
+  color: #3c59a2a7;
+}
+.multibanking > img,
+.sucursale > img {
+  width: 30px;
+  height: 30px;
+}
+.extraoptions > div > img {
+  margin: 15px;
+}
+.extraoptions > div > h3 {
+  margin: 10px 0px;
+  white-space: wrap;
+  width: 100px;
+}
+.extraoptions > div > p {
+  color: #9796a8;
+  white-space: wrap;
+}
+.extraoptions > div {
+  background-color: #22222c;
+  width: 300px;
+  height: 180px;
+  display: flex;
+  margin: 0px 10px;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px 40px 15px 15px;
+}
+.moneyback > img {
+  width: 40px;
+  height: 30px;
+}
+
+.extraoptions {
+  height: 240px;
+  flex-direction: row;
+  display: flex;
+  width: 330px;
+}
+
+.extraoptions::-webkit-scrollbar {
+  display: none;
+}
+.extraoptions {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.economii > img {
+  width: 80px;
+  height: 80px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.economii > p {
+  width: 80px;
+  margin-left: 15px;
+  font-size: 13px;
+  height: 80px;
+  text-align: center;
+}
+.asigurari > div > p {
+  text-align: center;
+}
+.asigurari > div > img {
+  width: 80px;
+  height: 80px;
+}
+.asigurari > div {
+  width: 80px;
+  height: 130px;
+  margin: 15px;
+}
+.asigurari {
+  display: flex;
+  flex-wrap: wrap;
+}
+.prieteni > div > p {
+  text-align: center;
+}
+.prieteni > div > img {
+  width: 80px;
+  height: 80px;
+}
+.prieteni > div {
+  width: 80px;
+  height: 130px;
+  margin: 15px;
+}
+.prieteni {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  position: sticky;
+}
+#fixed-title {
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  background-color: transparent;
+  color: #fff; /* Culoarea textului inițială */
+  padding: 10px;
+
+  width: 100%;
+  transition: background-color 0.3s, color 0.3s; /* Efectul de tranziție pentru culori */
+}

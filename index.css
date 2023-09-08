@@ -1,0 +1,74 @@
+.footer a:nth-last-child(-n + 2) > p {
+  font-size: 15px;
+  color: #5b5d6a;
+}
+.footer-home-button::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 34px;
+  z-index: 10;
+  border-radius: 20px;
+  background-color: #133460a7;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+.footer-home-button > p {
+  color: #3c59a2a7;
+}
+.user-icon {
+  position: relative;
+  top: 15px;
+  left: 300px;
+}
+h1 {
+  margin: 10px;
+}
+.current-accout {
+  cursor: pointer;
+  border-top: 3px solid #af0043;
+  border-radius: 4px;
+  padding: 10px 0px 0px 0px;
+  background-color: #22222c;
+  margin: 30px 15px;
+  width: 320px;
+}
+@media only screen and (max-width: 350px) {
+  .current-accout {
+    width: calc(100vw - 30px);
+  }
+  .user-icon {
+    position: relative;
+    left: calc(100vw - 50px);
+  }
+}
+.current-accout-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 10px 10px;
+}
+.current-accout-up > img {
+  border: 1px solid #373a43;
+  border-radius: 100px;
+  padding: 9px 7px;
+}
+.current-accout-down {
+  display: flex;
+  border-top: 1px solid #5b5d6a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+}
+.new-transfer {
+  color: #5287d7;
+  cursor: pointer;
+}
+.more {
+  transform: rotate(90deg);
+  font-size: 20px;
+  color: #5287d7;
+  cursor: pointer;
+}
